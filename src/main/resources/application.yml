@@ -1,0 +1,15 @@
+spring:
+  devtools:
+    restart:
+      log-condition-evaluation-delta: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/LinkShortenerBd?
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+logging:
+  level:
+    root: DEBUG
+    org.springframework: DEBUG
+server:
+  port: 8080
